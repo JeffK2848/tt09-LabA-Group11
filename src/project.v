@@ -57,7 +57,7 @@ assign p[5] = sum11;
 assign p[6] = sum12;
 assign p[7] = carry_out12;
     
-assign uo_out = p
+assign uo_out = p;
 
 endmodule
 

@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project takes one 8-bit input. the 8-bit input is split to form two 4-bit inputs. The inputs are put into an array that uses a combination of AND gates and Full Adders to get the individual values of the product.
+
 
 ## How to test
 
-Explain how to use your project
+Give an 8-bit input and check if the output is the correct product of the first and last 4-bits of the input.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A

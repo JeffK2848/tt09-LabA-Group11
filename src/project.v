@@ -28,7 +28,7 @@ assign uio_oe  = 0;
 // List all unused inputs to prevent warnings
 wire _unused = &{ena, clk, rst_n, 1'b0};
 
-wire int_sig1,int_sig2,int_sig3,int_sig4,int_sig5,int_sig6,int_sig7,int_sig8,int_sig9,int_sig10,int_sig11,int_sig12,int_sig13,int_sig14,int_sig15;
+wire int_sig1,int_sig2,int_sig3,int_sig4,int_sig5,int_sig6,int_sig7,int_sig8,int_sig9,int_sig10,int_sig11,int_sig12,int_sig13,int_sig14,int_sig15,carryout1,carryout2,carryout3,carryout4,carryout5,carryout6,carryout7,carryout8,carryout9,carryout10,carryout11,carryout12,sum1,sum2,sum3,sum4,sum5,sum6,sum7,sum8,sum9,sum10,sum11,sum12;
 
 assign int_sig1 = m[1] & q[0];
 assign int_sig2 = m[0] & q[1];

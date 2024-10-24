@@ -82,6 +82,8 @@ module full_adder(
     output sum
     );
     
+wire and1, and2, and3;
+
 assign and1 = c&q;
 assign and2 = c&m;
 assign and3 = q&m;
